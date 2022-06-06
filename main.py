@@ -31,7 +31,7 @@ def CreateListOfRequests(session):
 #Function to handle the response
 def GetMunicipality(response):
     '''
-    Takes the respons and return the city name
+    Takes the respons and return the Municipality
     '''
     data=json.dumps(response)
     data=json.loads(data)
